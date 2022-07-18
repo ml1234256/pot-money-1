@@ -1,9 +1,9 @@
 import { routes } from './config/routes';
 import { history } from './shared/history';
 
-import { createApp } from 'vue';
-import { createRouter } from 'vue-router';
-import { App } from './App';
+import { createApp } from 'vue'
+import { createRouter } from 'vue-router'
+import { App } from './App'
 
 
 const router = createRouter({ history, routes})
