@@ -12,7 +12,7 @@ export const Welcome = defineComponent({
                 </header>
                 <main>
                     <RouterView />
-                    <First { ...{value: 'haha1'}} />
+                    <First v-bind={ {value: 'haha'}} />
                 </main>
             </div>
         )
